@@ -26,7 +26,7 @@ namespace Service.Service
         public async Task<string> GetConsultation(string response)
         {
             string outputResult = "";
-            var openai = new OpenAIAPI("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");
+            var openai = new OpenAIAPI("");
             CompletionRequest completionRequest = new CompletionRequest();
             completionRequest.Prompt = response;
             completionRequest.Model = OpenAI_API.Models.Model.ChatGPTTurboInstruct;
