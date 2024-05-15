@@ -21,7 +21,7 @@ namespace FYP__.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         [Route("GetConsultation")]
         public async Task<ActionResult> GetConsultation(string query)
         {
