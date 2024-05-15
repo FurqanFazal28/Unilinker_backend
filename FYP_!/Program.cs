@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 // Use CORS middleware with specific settings
 app.UseCors(builder =>
 {
-    builder.WithOrigins("*")
+    builder.WithOrigins("http://localhost:3000", "http://localhost:7100", "http://localhost:5173", "https://discussionforum-kg7tznuge-huzaifas-projects-c4dd683b.vercel.app")
     .AllowCredentials()
     
            .AllowAnyHeader()
