@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 // Use CORS middleware with specific settings
 app.UseCors(builder =>
 {
-    builder.WithOrigins("http://localhost:3000", "http://localhost:7100", "http://localhost:5173", "https://discussionforum-mhqd49pbb-huzaifas-projects-c4dd683b.vercel.app", "https://discussionforum-liard.vercel.app", "https://unilinker-frontend-main-furqan-fazas-projects.vercel.app", "https://unilinker-frontend-main-4k8v16nk3-furqan-fazas-projects.vercel.app", "https://unilinkapiv1.azurewebsites.net/api/Consultation/GetConsultation")
+    builder.WithOrigins("http://localhost:3000", "http://localhost:7100", "http://localhost:7186", "https://discussionforum-mhqd49pbb-huzaifas-projects-c4dd683b.vercel.app", "https://discussionforum-liard.vercel.app", "https://unilinker-frontend-main-furqan-fazas-projects.vercel.app", "https://unilinker-frontend-main-4k8v16nk3-furqan-fazas-projects.vercel.app", "https://unilinkapiv1.azurewebsites.net/api/Consultation/GetConsultation")
     .AllowCredentials()
     
            .AllowAnyHeader()
