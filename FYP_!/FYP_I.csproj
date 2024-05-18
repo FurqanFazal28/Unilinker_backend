@@ -19,8 +19,11 @@
     </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
+	<ItemGroup>
+		<Content Include="web.config" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
 
-  <ItemGroup>
+	<ItemGroup>
     <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
